@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.game-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #005f6a;
+}
+
+.result {
+  margin-top: 20px;
+} 
